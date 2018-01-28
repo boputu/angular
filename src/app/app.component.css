@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Css para la tarjeta*/
+
+.avatar {
+  border: 3px solid black;
+  width: 300px;
+  height: 700px;
+  box-shadow: 0 0 8px 5px black;
+}
+
+/*Definimos los 3 colores de la tarjeta al cambiarlo con ngclass*/
+
+.gris {
+  background-color: #959392;
+  width: 300px;
+}
+
+.azul {
+  background-color: #73A9D7;
+  width: 300px;
+}
+
+.rojo {
+  background-color: #DCB4BA;
+  width: 300px;
+}
+
+.contenedor {
+  padding: 2px 30px;
+}
+
+.tarjeta {
+  margin-left: 35%;
+}
+
+h5 {
+  color: grey;
+  text-decoration: none;
+}
+
+input, select{
+  border-radius: 10px;
+}
+
+/*CSS del formulario*/
+
+.form {
+  width: 290px;
+  height: 330px;
+  font-size: 15px;
+  margin-top: 50px;
+  border: 3px solid black;
+  margin-left: 35%;
+  background-color: #959392;
+  padding-left: 15px;
+}
